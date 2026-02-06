@@ -1,6 +1,6 @@
 # Adaptiv MCP (GitHub + Render)
 
-Adaptiv MCP is a self-hosted, connector-oriented **Model Context Protocol (MCP)** server that exposes **GitHub** and **Render** automation as MCP tools, plus a small HTTP registry/UI surface for discovery and debugging.
+Adaptiv MCP is a self-hosted, connector-oriented **Model Context Protocol (MCP)** server that exposes **GitHub, Git** and **Render** automation as MCP tools, plus a small HTTP registry/UI surface for discovery and debugging.
 
 It’s designed to work cleanly with **ChatGPT / OpenAI MCP connectors** (including common preflight/probe behavior).
 
@@ -130,3 +130,4 @@ This repo includes Render-friendly scripts:
 - `scripts/render-start.sh` – validates a vendored `rg` binary, normalizes log level for uvicorn, and starts the server
 
 The start script expects a working `rg` on `$PATH` and will prefer the vendored binaries under `vendor/rg/...`.
+
